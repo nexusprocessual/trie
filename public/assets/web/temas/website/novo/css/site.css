@@ -1,0 +1,2047 @@
+body {
+    background-color: #F5F5F5;
+    padding-top: 90px
+}
+
+.calculadora {
+    float: left;
+    width: 100%
+}
+
+.calculadora ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.calculadora ul li {
+    float: left;
+    width: 33.33%;
+    padding: 5px
+}
+
+#area label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000
+}
+
+#teclado {
+    float: left;
+    width: 100%
+}
+
+#numbers input {
+    float: left;
+    width: 33.33%;
+    background-color: #D9D9D9;
+    color: #fff;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 87px;
+    border: 5px solid #fff;
+    border-radius: 14px
+}
+
+#numbers input:hover {
+    opacity: 0.6
+}
+
+.botao-acessar {
+    background-color: #05283B!important;
+    width: 66.66%!important
+}
+
+.botao-mais {
+    background-color: #403D44!important
+}
+
+.banner-full {
+    margin-bottom: 20px
+}
+
+.box-header {
+    border-radius: 14px;
+    padding: 35px 30px;
+    margin-bottom: 25px;
+    background: url("/assets/web/temas/website/novo/imagens/convertidos/bg-banner.webp") no-repeat top;
+    background-size: cover
+}
+
+.img-header {
+    margin-bottom: -35px
+}
+
+#carouselExampleFade .carousel-control-next-icon,
+#carouselExampleFade .carousel-control-prev-icon {
+    width: 4rem!important;
+    height: 8rem!important
+}
+
+#carouselExampleFade .carousel-control-next {
+    right: -85px
+}
+
+#carouselExampleFade .carousel-control-prev {
+    left: -85px
+}
+
+#carouselExampleCaptions .carousel-control-next-icon,
+.carousel-control-prev-icon {}
+
+#carouselExampleCaptions .carousel-control-next,
+.carousel-control-prev {
+    width: 10%
+}
+
+#carouselExampleCaptions .carousel-control-prev {
+    right: 72px;
+    left: inherit
+}
+
+#carouselExampleCaptions .carousel-control-prev-icon {
+    background-color: #05283B;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 20px;
+    position: absolute
+}
+
+#carouselExampleCaptions .carousel-control-next-icon {
+    background-color: #05283B;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 20px;
+    position: absolute
+}
+
+.box-video img {
+    border-radius: 20px!important;
+    width: 100%
+}
+
+#card-concluida {}
+
+#card-concluida .card {
+    border-radius: 10px
+}
+
+#card-recalculo {}
+
+#card-recalculo .card {
+    border-radius: 14px;
+    border: none
+}
+
+#card-recalculo h1 {
+    font-size: 36px;
+    color: #05283B
+}
+
+#card-recalculo h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #05283B;
+    mix-blend-mode: hard-light
+}
+
+.card-calculadora {
+    background-color: #d9d9d9!important;
+    border-radius: 14px 14px 0 0!important
+}
+
+.img-simulacao {
+    position: absolute;
+    width: 800px
+}
+
+.box-dados-recalculo {
+    float: left;
+    width: 100%;
+    background: #05283B;
+    border-radius: 14px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.box-dados-recalculo h3 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #05BEC0;
+    mix-blend-mode: hard-light;
+    text-align: center
+}
+
+.box-dados-recalculo h4 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center
+}
+
+.box-dados-recalculo .dados-recalculo li {
+    color: #fff;
+    margin-bottom: 0
+}
+
+.box-dados-recalculo .dados-recalculo li span {
+    color: #fff
+}
+
+.bg-light {
+    background-color: #F5F5F5!important
+}
+
+.botao-pulse {
+    background: #0000007d;
+    box-shadow: 0 0 0 0 #00000099;
+    animation: pulse-orange 1.5s infinite
+}
+
+@keyframes pulse-orange {
+    0% {
+        box-shadow: 0 0 0 0 rgb(0 0 0 / 70%)
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgb(1 18 28 / 0%)
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(0 0 0 / 0%)
+    }
+}
+
+.botao-whatsapp-flutuante {
+    position: fixed;
+    bottom: 11px;
+    right: 10px;
+    width: 230px;
+    height: 93px;
+    color: #fff;
+    z-index: 9999;
+    padding: 8px
+}
+
+.botao-whatsapp-flutuante:hover {
+    color: #fff
+}
+
+#card-concluida h1 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #05283B;
+    mix-blend-mode: hard-light
+}
+
+#card-concluida h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #05283B;
+    mix-blend-mode: hard-light
+}
+
+.box-simulacao-rapida {
+    float: left;
+    width: 100%;
+    border-radius: 14px;
+    padding: 30px 50px;
+    background: url("/assets/web/temas/website/novo/imagens/bg-banner.jpg") no-repeat top;
+    background-size: cover
+}
+
+.box-info-simulacao-rapida {
+    float: left;
+    width: 100%
+}
+
+.box-info-simulacao-rapida h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #05BEC0
+}
+
+.box-info-simulacao-rapida h3 span {
+    color: #fff
+}
+
+.box-info-simulacao-rapida p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.box-info-simulacao-rapida img {
+    margin-top: 69px;
+    position: absolute
+}
+
+.t-dados-financiamento {
+    font-weight: 700;
+    font-size: 20px;
+    color: #05283B
+}
+
+.dados-recalculo {
+    list-style: none;
+    padding-left: 0
+}
+
+.dados-recalculo i {
+    color: #1BB4B7
+}
+
+.dados-recalculo li {
+    font-weight: 400;
+    font-size: 20px;
+    color: #05283B;
+    margin-bottom: 10px
+}
+
+.dados-recalculo li span {
+    color: #1BB4B7
+}
+
+.cor-azul {
+    color: #1BB4B7
+}
+
+.bg-branco {
+    background: #fff!important
+}
+
+.navbar {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+.top-nav-collapse {
+    background-color: #f5f5f5f7!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important
+}
+
+.logo-nav {
+    width: 175px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+.top-nav-collapse .logo-nav {}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 300;
+    font-size: 17px;
+    padding-right: .9rem;
+    padding-left: .9rem
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000000
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+    font-weight: 600
+}
+
+#card-interna h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05283B
+}
+
+#card-interna h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #05283B
+}
+
+#card-interna p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: justify
+}
+
+#card-blog h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05283B
+}
+
+#card-blog h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #05283B
+}
+
+.badge-trie {
+    text-decoration: none;
+    background-color: #05BEC0!important;
+    font-weight: 700;
+    font-size: 14px;
+    color: #05283B;
+    text-transform: uppercase
+}
+
+.badge-trie:hover {
+    color: #fff
+}
+
+.conteudo-post h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05283B
+}
+
+.conteudo-post h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #05283B
+}
+
+.conteudo-post p {
+    font-style: normal;
+    font-weight: 400!important;
+    font-size: 18px!important;
+    color: #05283B!important
+}
+
+.conteudo-post time,
+.conteudo-post .p-post {
+    font-style: normal;
+    font-weight: 400!important;
+    font-size: 14px!important;
+    color: #05283B!important
+}
+
+.menu-categorias {
+    float: left;
+    width: 100%
+}
+
+.menu-categorias h3 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #05283B
+}
+
+.menu-categorias a {
+    float: left;
+    width: 100%;
+    background: #05BEC0;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #05283B;
+    text-decoration: none
+}
+
+.feed-post {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px
+}
+
+.feed-post .chamada {
+    position: absolute;
+    bottom: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 60px 20px 20px;
+    background: linear-gradient(359deg, rgb(0 0 0) 0%, rgb(82 64 64 / 0%) 76.56%), url("/assets/web/temas/website/novo/css/linkedin-sales-solutions-W3Jl3jREpDY-unsplash");
+    border-radius: 0.25rem !important;
+}
+
+.bg-feed-post .feed-post .chamada {
+    position: inherit;
+    background: inherit;
+    padding: 20px 0;
+}
+
+.feed-banner .chamada h2 {
+    color: #fff !important;
+}
+
+.feed-veja-mais .chamada h2 {
+    color: #fff !important;
+}
+
+#listar-posts .feed-post .chamada {
+    background: none;
+    position: relative;
+    padding: 0
+}
+
+#listar-posts .feed-post .chamada p {
+    color: #05283B;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 4px
+}
+
+#listar-posts .feed-post .chamada time,
+#listar-posts .feed-post .chamada .p-post {
+    color: #05283B;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px
+}
+
+.page-link {
+    font-weight: 700;
+    color: #05283B
+}
+
+.page-item.active .page-link {
+    background-color: #05bec0;
+    border-color: #05bec0
+}
+
+.categoria a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff6f6;
+    text-shadow: 2px 2px #00000038
+}
+
+.chamada a {
+    text-decoration: none
+}
+
+.chamada h2 {
+    font-weight: 700!important;
+    font-size: 30px!important;
+    color: #05283B!important
+}
+
+.banner-full h2 {
+    font-weight: 700!important;
+    font-size: 37px!important;
+    width: 50%;
+    color: #05283B!important
+}
+
+.banner-full .bage-post {
+    position: absolute;
+    bottom: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #D9D9D9
+}
+
+.bage-post {
+    color: #D9D9D9;
+    background-color: #05283B!important
+}
+
+.bage-post:hover {
+    color: #fff
+}
+
+.bg-feed-post {
+    background: #05BEC0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px
+}
+
+.bg-feed-post h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05283B;
+    margin-bottom: 20px
+}
+
+.bg-feed-post .chamada h2 {
+    font-size: 20px!important
+}
+
+.bg-feed-post .chamada h3 {
+    font-size: 20px!important
+}
+
+.hr-blog {
+    height: 5px!important;
+    background-color: #05BEC0;
+    opacity: 1
+}
+
+#publicidade-blog {
+    margin-bottom: 40px
+}
+
+.box-publicidade {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(5, 190, 192, 0.2) 0%, rgba(5, 40, 59, 0.2) 100%), #05283B;
+    border-radius: 14px;
+    padding: 20px 40px
+}
+
+.box-publicidade h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF
+}
+
+.box-publicidade h6 {
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.box-publicidade h6 span {
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.img-pub-carro {
+    float: right
+}
+
+.img-pub-calculadora {
+    float: right
+}
+
+#newsletter-blog {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 55px;
+    padding-bottom: 45px
+}
+
+#newsletter-blog h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05283B
+}
+
+#newsletter-blog p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #05283B
+}
+
+.info-header {
+    color: #000
+}
+
+.info-header h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff
+}
+
+.info-header h1 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #f5f5f5;
+    margin-bottom: 40px
+}
+
+.info-header h1 span {
+    color: #002337
+}
+
+.banner-blog {
+    background: url("/assets/web/temas/website/novo/imagens/convertidos/bg-banner-blog.webp") no-repeat top;
+    background-size: cover
+}
+
+.banner-novo {
+    background: url("/assets/web/temas/website/novo/imagens/convertidos/banner/bg-banner.webp") no-repeat top;
+    background-size: cover
+}
+
+.banner-novo .info-header {
+    padding-top: 38px!important
+}
+
+.banner-novo h3 {
+    color: #66b2b5!important;
+    font-size: 36px!important;
+    font-weight: 700
+}
+
+.banner-novo h1 {
+    color: #fff!important;
+    font-size: 30px!important;
+    font-weight: 700
+}
+
+.banner-novo h1 span {
+    color: #fff!important;
+    font-size: 30px!important;
+    font-weight: 400
+}
+
+.banner-blog .info-header {
+    padding-left: 130px;
+    padding-top: 48px
+}
+
+.banner-blog .info-header h2 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #f5f5f5;
+    margin-bottom: 40px
+}
+
+.banner-blog .info-header h2 span {
+    color: #002337
+}
+
+.banner-blog .info-header p {
+    font-weight: 400;
+    font-size: 1.4rem
+}
+
+#card-simule {
+    border-radius: 10px;
+    padding: 10px 30px 0px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #ffffffeb
+}
+
+.img-form {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 168px;
+    height: 187px
+}
+
+.t-simule {
+    font-size: 18px;
+    font-weight: 600;
+    color: #05283B;
+    text-align: left;
+    margin-bottom: 15px
+}
+
+#card-simule .form-floating>input {
+    background: #FAFBFF!important;
+    border: 2px solid #05BEC0!important;
+    border-radius: 14px
+}
+
+#newsletter-blog .form-floating>input {
+    background: #FAFBFF!important;
+    border: 2px solid #05BEC0!important;
+    border-radius: 14px
+}
+
+.form-select {
+    background-color: #FAFBFF!important;
+    border: 1px solid #05BEC0!important
+}
+
+.select2-container--default .select2-selection--single {
+    background: #FAFBFF!important;
+    border: 1px solid #05BEC0!important
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #f5f5f5!important;
+    color: black!important;
+    font-weight: 400
+}
+
+::-webkit-input-placeholder {
+    font-weight: 300;
+    font-size: 15px;
+    color: #B0B9DC
+}
+
+input:-moz-placeholder {
+    font-weight: 300;
+    font-size: 15px;
+    color: #B0B9DC
+}
+
+textarea:-moz-placeholder {
+    font-weight: 300;
+    font-size: 15px;
+    color: #B0B9DC
+}
+
+::-webkit-input-placeholder {
+    font-style: normal!important;
+    font-weight: 300;
+    font-size: 15px;
+    color: #B0B9DC
+}
+
+input:-moz-placeholder {
+    font-style: normal!important;
+    font-weight: 300;
+    font-size: 15px;
+    color: #B0B9DC
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=time] {
+    font-size: 15px
+}
+
+.btn-padrao {
+    font-style: normal;
+    font-size: 18px;
+    color: #fff!important;
+    background-color: #1db6b8;
+    border-color: #1db6b8;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 30px
+}
+
+.btn-padrao:hover,
+.btn-padrao:active,
+.btn-padrao:focus {
+    color: #fff!important;
+    background-color: #1db6b8!important;
+    border-color: #1db6b8!important
+}
+
+.btn-voltar {
+    font-style: normal;
+    font-size: 18px;
+    color: #fff!important;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 8px
+}
+
+.btn-voltar:hover,
+.btn-voltar:active,
+.btn-voltar:focus {
+    color: #fff!important;
+    background-color: #D9D9D9!important;
+    border-color: #D9D9D9!important
+}
+
+.btn-formulario {
+    font-style: normal;
+    font-size: 18px;
+    color: #fff!important;
+    background-color: #1db6b8;
+    border-color: #1db6b8;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 8px
+}
+
+.btn-formulario:hover,
+.btn-formulario:active,
+.btn-formulario:focus {
+    color: #fff!important;
+    background-color: #1db6b8!important;
+    border-color: #1db6b8!important
+}
+
+.btn-primary {
+    font-style: normal;
+    font-size: 18px;
+    color: #fff!important;
+    background-color: #05283B;
+    border-color: #05283B;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 14px
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    color: #fff!important;
+    background-color: #05283B!important;
+    border-color: #05283B!important
+}
+
+.btn-form {
+    font-style: normal;
+    font-size: 18px;
+    color: #fff!important;
+    background-color: #05BEC0;
+    border-color: #05BEC0;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 14px
+}
+
+.btn-form:hover,
+.btn-form:active,
+.btn-form:focus {
+    color: #fff!important;
+    background-color: #05BEC0!important;
+    border-color: #05BEC0!important
+}
+
+.btn-success {
+    font-style: normal;
+    font-size: 16px;
+    color: #fff!important;
+    background-color: #32982b;
+    border-color: #32982b;
+    font-weight: 700;
+    padding: 15px 30px
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    color: #fff!important;
+    background-color: #32982b!important;
+    border-color: #32982b!important
+}
+
+.btn-whatsapp {
+    font-style: normal;
+    font-size: 20px;
+    color: #fff!important;
+    background-color: #45C555;
+    border-color: #45C555;
+    font-weight: 800;
+    padding: 15px 30px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:active,
+.btn-whatsapp:focus {
+    color: #fff!important;
+    background-color: #45C555!important;
+    border-color: #45C555!important
+}
+
+.icon-whatsapp-btn {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -6px
+}
+
+.btn-warning {
+    font-style: normal;
+    font-size: 16px;
+    color: #fff!important;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: 700;
+    padding: 15px 30px
+}
+
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:focus {
+    color: #fff!important;
+    background-color: #ffc107!important;
+    border-color: #ffc107!important
+}
+
+#saiba-mais {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+#saiba-mais h3 {
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #212529;
+    text-shadow: 2px 2px #dfdfdf96
+}
+
+#saiba-mais .nav-pills .nav-link {
+    text-align: left;
+    background-color: #212529;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 100%
+}
+
+#saiba-mais .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #3D3D3F
+}
+
+#experiencia {
+    /* padding-top: 40px; */
+    padding-bottom: 40px
+}
+
+#experiencia h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000bf
+}
+
+#experiencia h5 span {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000
+}
+
+#experiencia h3 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #403D44;
+    margin-bottom: 20px
+}
+
+#experiencia p {
+    font-size: 14px;
+    font-weight: 400
+}
+
+#experiencia .d-flex {
+    margin-bottom: 40px
+}
+
+.separador {
+    height: 2px;
+    background: #05BEC0
+}
+
+#quem-somos {
+    padding-top: 40px
+}
+
+#quem-somos h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000
+}
+
+#quem-somos h3 span {
+    font-weight: 700;
+    color: #05BEC0
+}
+
+#quem-somos p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: justify
+}
+
+#como-funciona {
+    /* padding-top: 40px */
+}
+
+#como-funciona h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px
+}
+
+#como-funciona h3 span {
+    font-weight: 700;
+    color: #05BEC0
+}
+
+#como-funciona p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000
+}
+
+#na-midia {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 448px;
+    background: #05BEC0
+}
+
+#na-midia h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.box-video {
+    position: relative
+}
+
+.player {
+    position: absolute;
+    height: 69px;
+    width: 69px;
+    right: 45%;
+    top: 40%
+}
+
+.img-parceiros {
+    margin-right: 10px
+}
+
+.redes-sociais a {
+    text-decoration: none
+}
+
+.icone-redesocial {
+    max-width: 255px;
+    margin-bottom: 15px
+}
+
+.icone-ok {
+    height: 35px;
+    margin-bottom: 5px
+}
+
+#simulador {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(10, 40, 57)
+}
+
+#simulador h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #21b7ba
+}
+
+#simulador h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px #51515196
+}
+
+#simulador h2 span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px #51515196
+}
+
+#porque-confiar {
+    background-color: rgb(237, 238, 240);
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+#porque-confiar h3 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #0a2839;
+    text-shadow: 2px 2px #dfdfdf96;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#depoimentos {
+    margin-bottom: 40px
+}
+
+#depoimentos .box-depoimento h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+#depoimentos span {
+    color: #21b7ba
+}
+
+.box-depoimento {
+    float: left;
+    width: 100%;
+    background-color: #05283B;
+    border-radius: 14px;
+    min-height: 533px;
+    padding: 30px;
+    margin-bottom: 30px
+}
+
+.box-depoimento p {
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 400
+}
+
+.box-depoimento a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #05BEC0
+}
+
+.icone-dep {
+    max-width: 200px!important;
+    margin-bottom: 5px
+}
+
+.box-calculadora {
+    float: left;
+    width: 100%;
+    border-radius: 14px;
+    min-height: 551px;
+    padding: 30px;
+    background-size: cover;
+    position: relative
+}
+
+.box-calculadora h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #05283B
+}
+
+.box-calculadora p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.53)
+}
+
+.box-calculadora a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #05283B;
+    text-shadow: 0px 4px 10px #D9D9D9
+}
+
+.video-quem-somos {
+    overflow: auto;
+    border-radius: 20px
+}
+
+#box-artista {
+    min-height: 250px;
+    border-radius: 14px;
+    margin-bottom: 40px;
+    padding: 0 20px 0px;
+    background: url("/assets/web/temas/website/novo/imagens/convertidos/bg-banner.webp") no-repeat top;
+    background-size: cover
+}
+
+#box-artista h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 21px
+}
+
+#box-artista p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF
+}
+
+.img-artista-1 {}
+
+#vantagens {
+    color: #2580AB;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+#vantagens h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #212529;
+    text-shadow: 2px 2px #dfdfdf96
+}
+
+#vantagens p {
+    font-size: 1rem;
+    font-weight: 700
+}
+
+#perguntas {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fdb900
+}
+
+#perguntas h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #00000096
+}
+
+#lead {
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #6e7884
+}
+
+#lead h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px #0000006b
+}
+
+.btn-lead {
+    border-radius: 30px!important
+}
+
+.box-vantagens {
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #dddddd61;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #ddd
+}
+
+.box-vantagens img {
+    width: 56px
+}
+
+.text-primary {
+    color: #212529!important
+}
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    min-height: 200px;
+    background: linear-gradient(180deg, rgba(5, 190, 192, 0.2) 0%, rgba(5, 40, 59, 0.2) 100%), #05283B
+}
+
+footer h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px
+}
+
+footer h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 5px
+}
+
+footer p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF
+}
+
+footer p b {
+    font-weight: 700
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.info-footer h5 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.info-footer h5 a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: lowercase;
+    color: #FFFFFF
+}
+
+.info-footer p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF
+}
+
+.logo-footer {
+    width: 185px;
+    float: right
+}
+
+.icon-social {
+    float: left;
+    width: 68px
+}
+
+.selos {
+    width: 110px
+}
+
+.text-direitos {
+    font-size: 0.8rem
+}
+
+label {
+    margin-bottom: .5rem
+}
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+#card-perguntas button {
+    color: #212529;
+    font-size: 17px;
+    font-weight: 900
+}
+
+#card-perguntas p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify
+}
+
+#saiba-mais .nav-tabs .nav-link {
+    font-weight: 900
+}
+
+#saiba-mais .fa-plus {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+#saiba-mais .active .fa-plus {
+    transform: rotate(138deg);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+#sub-pagina {
+    margin-top: -100px
+}
+
+#sub-pagina .card {
+    border-radius: 10px
+}
+
+#sub-pagina h1 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #212529;
+    text-shadow: 2px 2px #dfdfdf96
+}
+
+.steps {
+    display: flex;
+    margin: 1.25rem 0;
+    font-weight: 400;
+    font-size: 0.8rem
+}
+
+.steps ul {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style: none;
+    background-color: #e6e8ed;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    border-radius: 999px
+}
+
+.steps li {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%
+}
+
+.steps li:first-child:before {
+    display: none
+}
+
+.steps li:first-child a {
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px
+}
+
+.steps li:last-child a {
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px
+}
+
+.steps li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -.875rem;
+    z-index: 1;
+    display: block;
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 2px solid #fff;
+    border-top-right-radius: .5rem;
+    background-color: #e6e8ed;
+    transform: rotate(45deg)
+}
+
+.steps li:hover+li:before,
+.steps li:hover a {
+    background-color: #dde0e7
+}
+
+.steps li:hover a {
+    text-decoration: none
+}
+
+.steps a {
+    display: block;
+    padding: 5px .875rem 6px 1.75rem;
+    text-align: center;
+    color: #363642;
+    line-height: 1.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none
+}
+
+.steps a:focus,
+.steps a:hover {
+    text-decoration: none
+}
+
+.steps a>span:last-child {
+    margin-left: 5px
+}
+
+.step-indicator {
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    background-color: #a6abbd;
+    line-height: 1.25rem;
+    border-radius: 1.25rem
+}
+
+.step-indicator-icon {
+    background-color: transparent;
+    color: #888c9b
+}
+
+.step-indicator-icon>.fa {
+    margin-top: 2px
+}
+
+.steps .active+li:before,
+.steps .active a {
+    background-color: #1db6b8
+}
+
+.steps .active .step-indicator,
+.steps .active a {
+    color: #fff;
+    font-weight: 500
+}
+
+.steps .active:hover+li:before,
+.steps .active:hover a {
+    background-color: #1db6b8
+}
+
+.steps .active:hover a {
+    color: #fff
+}
+
+.steps .success+li:before,
+.steps .success a {
+    background-color: #00a28a
+}
+
+.steps .success .step-indicator,
+.steps .success a {
+    color: #fff
+}
+
+.steps .success:hover+li:before,
+.steps .success:hover a {
+    background-color: #00937d
+}
+
+.steps .success:hover a {
+    color: #fff
+}
+
+.steps .error+li:before,
+.steps .error a {
+    background-color: #ea6759
+}
+
+.steps .error .step-indicator,
+.steps .error a {
+    color: #fff
+}
+
+.steps .error:hover+li:before,
+.steps .error:hover a {
+    background-color: #e85b4b
+}
+
+.steps .error:hover a {
+    color: #fff
+}
+
+#card-concluida legend {
+    font-weight: 700
+}
+
+.logo-safra {
+    width: 150px;
+    margin-bottom: 30px
+}
+
+.alert {
+    text-align: justify
+}
+
+.alert h4 {
+    font-size: 20px
+}
+
+.alert {
+    text-align: left
+}
+
+.alert p {
+    font-size: 13px;
+    text-align: justify
+}
+
+.alert li {
+    font-size: 13px;
+    text-align: justify
+}
+
+.box-ajuda {
+    text-align: center;
+    padding: 10px 15px
+}
+
+.box-ajuda img {
+    margin-bottom: 20px
+}
+
+.box-ajuda img {
+    width: 200px
+}
+
+.box-ajuda p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify
+}
+
+.titulo-ajuda {
+    font-size: 1.2rem
+}
+
+.numeros-atendimentos a {
+    text-decoration: none;
+    color: #000
+}
+
+#experiencia img {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1400px) {
+    .img-simulacao {
+        width: 740px
+    }
+    .box-info-simulacao-rapida img {
+        margin-top: 48px
+    }
+    .banner-blog .img-header img {
+        height: 358px
+    }
+    .banner-blog .info-header {
+        padding-top: 25px;
+        padding-left: 72px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .banner-blog .img-header img {
+        height: 296.29px
+    }
+    .banner-blog .info-header {
+        padding-top: 7px;
+        padding-left: 80px
+    }
+    .img-simulacao {
+        width: 600px
+    }
+    .box-simulacao-rapida {
+        padding: 30px
+    }
+    .box-info-simulacao-rapida img {
+        margin-top: 70px
+    }
+    .info-header h1 {
+        font-size: 32px
+    }
+    .info-header .btn-padrao {
+        font-size: 13px
+    }
+    .box-calculadora {
+        min-height: 611px
+    }
+    .img-artista-1 {
+        margin-top: 33px
+    }
+    #box-artista h3 {
+        font-size: 27px
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner-blog .info-header {
+        padding-top: 0px;
+        padding-left: 0px
+    }
+    .banner-blog .info-header h2 {
+        margin-bottom: 14px
+    }
+    .banner-blog .img-header {
+        text-align: center
+    }
+    .img-simulacao {
+        display: none
+    }
+    .btn-whatsapp {
+        font-size: 14px
+    }
+    .box-simulacao-rapida {
+        padding: 30px
+    }
+    .box-info-simulacao-rapida img {
+        margin-top: 0px;
+        position: relative
+    }
+    .icone-dep {
+        max-width: 100%!important
+    }
+    #experiencia .d-flex img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0
+    }
+    .info-header {
+        padding-top: 0
+    }
+    .info-header h1 {
+        font-size: 40px;
+        margin-bottom: 0
+    }
+    #box-artista .botao-recalculo {
+        text-align: center!important
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner-blog {
+        background: url("/assets/web/temas/website/novo/imagens/convertidos/bg-banner-blog.webp") 85% 55%;
+        background-size: cover;
+        height: 317.55px;
+        position: relative
+    }
+    .banner-blog .info-header {
+        position: absolute
+    }
+    .banner-blog .img-header img {
+        height: 214px;
+        margin-top: 68px;
+        left: 80px;
+        margin-right: -79px
+    }
+    .banner-blog .info-header h2 {
+        font-size: 23px
+    }
+    .banner-novo .info-header {
+        padding-top: 0px!important;
+        position: absolute;
+        padding-left: 160px;
+        margin-top: -15px
+    }
+    .banner-novo .info-header h3,
+    .banner-novo .info-header h1,
+    .banner-novo .info-header h1 span {
+        font-size: 20px!important
+    }
+    .materia img {
+        max-width: 100%
+    }
+    .info-header h2 {
+        margin-bottom: 0;
+        font-size: 26px
+    }
+    #listar-posts .chamada h2 {
+        font-size: 14px!important
+    }
+    #card-blog h1 {
+        font-size: 27px
+    }
+    .banner-full {
+        margin-bottom: 0
+    }
+    .bg-feed-post h3 {
+        font-size: 24px
+    }
+    .banner-full h2 {
+        font-size: 20px!important
+    }
+    .banner-full .bage-post {
+        font-size: 13px
+    }
+    .menu-categorias h3 {
+        font-size: 33px
+    }
+    .box-depoimento a {
+        font-size: 8px
+    }
+    #newsletter-blog h5 {
+        font-size: 24px
+    }
+    #carouselExampleFade .carousel-control-next-icon,
+    #carouselExampleFade .carousel-control-prev-icon {
+        width: 2rem!important;
+        height: 7rem!important
+    }
+    #newsletter-blog p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        color: #05283B
+    }
+    .btn-whatsapp {
+        font-size: 14px;
+        padding-left: 113px
+    }
+    .botao-acessar {
+        font-size: 25px
+    }
+    #card-recalculo h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        color: #05283B;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        text-align: center
+    }
+    #card-recalculo h2 {
+        font-size: 21px
+    }
+    .titulo-final {
+        font-size: 36px!important;
+        color: #000000!important;
+        text-align: left!important
+    }
+    #numbers input {
+        font-size: 26px
+    }
+    #na-midia h3 {
+        font-size: 24px
+    }
+    .top-nav-collapse .logo-nav {
+        width: 143px
+    }
+    #box-artista h3 {
+        font-size: 21px
+    }
+    .btn-padrao {
+        font-size: 14px
+    }
+    #card-concluida h3 {
+        font-size: 1.8rem
+    }
+    #quem-somos h3 {
+        font-size: 26px
+    }
+    #como-funciona h3 {
+        font-size: 26px
+    }
+    #experiencia .d-flex {
+        margin-bottom: 5px
+    }
+    #experiencia h5 span {
+        font-size: 15px
+    }
+    #experiencia h5 {
+        font-size: 12px
+    }
+    .box-vantagens {
+        margin-bottom: 6px
+    }
+    .box-vantagens img {
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 10px
+    }
+    #vantagens p {
+        text-align: left;
+        margin-top: 15px;
+        float: left
+    }
+    #card-simule {
+        padding: 0px 0px 0px
+    }
+    .t-simule {
+        font-size: 17px
+    }
+    .navbar-light {
+        background-color: #f5f5f5f7!important;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%)!important
+    }
+    .logo-nav {
+        width: 143px
+    }
+    .info-header p {
+        font-size: 1rem
+    }
+    .info-header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0
+    }
+    .player {
+        right: 42%;
+        top: 37%;
+        height: 58px;
+        width: 50px;
+        opacity: 0.6
+    }
+    .img-depo {
+        height: 60px
+    }
+    .box-depoimento p {
+        font-size: 12px
+    }
+    .box-calculadora {
+        min-height: 477px
+    }
+    #card-concluida h1 {
+        font-size: 25px
+    }
+    #card-concluida h2 {
+        font-size: 20px
+    }
+    .box-simulacao-rapida {
+        padding: 20px
+    }
+    #carouselExampleFade .carousel-control-next {
+        right: -23px
+    }
+    #carouselExampleFade .carousel-control-prev {
+        left: -17px
+    }
+    .botao-whatsapp-flutuante {
+        bottom: 94px;
+        width: 163px;
+        height: 70px
+    }
+    #botao-flutuante {
+        font-size: 20px
+    }
+    .item-experiencia {
+        margin-left: 36%
+    }
+}
+
+@media screen and (max-width:570px) {
+    .logo-footer {
+        width: 116px;
+        float: right;
+        margin-top: -100px
+    }
+    .banner-novo .info-header {
+        padding-top: 0px!important;
+        position: absolute;
+        padding-left: 0px;
+        margin-top: -15px
+    }
+    .banner-novo .info-header h3,
+    .banner-novo .info-header h1,
+    .banner-novo .info-header h1 span {
+        font-size: 17px!important
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "trie-site-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reprodução local do site público da Triê Soluções",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

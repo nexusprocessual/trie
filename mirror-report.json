@@ -1,0 +1,19 @@
+{
+  "source": "https://triesolucoes.com",
+  "pages": 39,
+  "assets": 149,
+  "errors": [
+    {
+      "url": "https://triesolucoes.com/assets/web/temas/website/novo/css/linkedin-sales-solutions-W3Jl3jREpDY-unsplash",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://triesolucoes.com/assets/web/temas/website/novo/plugins/animate/img/drag.png",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "notes": [
+    "Os favicons relativos usam a base raiz e estão disponíveis localmente.",
+    "Duas referências de CSS já retornam 404 na origem: imagem de fundo legada e cursor personalizado. O navegador utiliza os estilos de fallback originais."
+  ]
+}

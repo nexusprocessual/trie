@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><title>Painel | Triê</title>
+  <link rel="icon" href="/favicon/favicon-32x32.png">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <header><a href="/" aria-label="Página inicial da Triê"><img src="/assets/web/temas/website/novo/imagens/logo.png" alt="Triê Soluções Financeiras"></a><a class="back" href="/">Ver site <span aria-hidden="true">↗</span></a></header>
+  <main>
+    <div class="eyebrow">ADMINISTRAÇÃO</div>
+    <h1>Painel do site</h1>
+    <p class="intro">Gerencie o contato de atendimento e acompanhe quem visitou o site.</p>
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-settings" aria-controls="panel-settings" aria-selected="true">Configurações</button>
+      <button type="button" role="tab" id="tab-visits" aria-controls="panel-visits" aria-selected="false">Acessos</button>
+    </nav>
+    <section class="card" id="panel-settings" role="tabpanel" aria-labelledby="tab-settings">
+      <div class="card-heading"><div class="icon" aria-hidden="true">☏</div><div><h2 id="whatsapp-title">WhatsApp de atendimento</h2><p>Um único número para todos os botões de WhatsApp do site.</p></div></div>
+      <div class="current"><span>NÚMERO ATUAL</span><strong id="current-number">Carregando…</strong></div>
+      <form id="settings-form" novalidate>
+        <label for="whatsapp-phone">Número do WhatsApp</label>
+        <div class="phone-field"><span class="prefix">+55</span><input type="tel" inputmode="tel" autocomplete="tel-national" id="whatsapp-phone" name="whatsappPhone" placeholder="(62) 99999-9999" aria-describedby="phone-help phone-error" maxlength="24" required disabled></div>
+        <p class="help" id="phone-help">Informe o DDD e o telefone brasileiro. Também aceita número 0800.</p>
+        <p class="error" id="phone-error"></p>
+        <div class="preview"><span>Destino dos botões</span><a id="preview-link" target="_blank" rel="noopener" hidden></a><span id="preview-empty">Preencha o telefone acima.</span></div>
+        <div class="actions"><button type="submit" id="save-button" disabled>Salvar alterações</button><span>Aplicado em todas as páginas.</span></div>
+        <p id="save-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="card wide" id="panel-visits" role="tabpanel" aria-labelledby="tab-visits" hidden>
+      <div class="card-heading visits-heading"><div class="icon" aria-hidden="true">◉</div><div><h2>Acessos ao site</h2><p>Cada página aberta, com IP, cidade e horário.</p></div><button type="button" class="secondary" id="refresh-visits">Atualizar</button></div>
+      <div class="stats"><div><span>ACESSOS</span><strong id="stat-total">–</strong></div><div><span>IPS ÚNICOS</span><strong id="stat-unique">–</strong></div><div><span>HOJE</span><strong id="stat-today">–</strong></div></div>
+      <input type="search" id="visit-filter" class="filter" placeholder="Filtrar por IP, cidade ou página">
+      <p class="help" id="visits-note"></p>
+      <div class="table-wrap"><table><thead><tr><th>Horário</th><th>IP</th><th>Cidade</th><th>Página</th></tr></thead><tbody id="visits-body"><tr><td colspan="4">Carregando…</td></tr></tbody></table></div>
+    </section>
+    <p class="footnote">Painel local da Triê · Dados salvos no Supabase quando configurado.</p>
+  </main>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
