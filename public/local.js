@@ -9,6 +9,9 @@
       document.querySelectorAll('a[href^="https://wa.me/"]').forEach(link=>{
         const url=new URL(link.href);url.pathname='/'+settings.whatsappPhone;link.href=url.href;
       });
+      const d=settings.whatsappPhone.slice(2);
+      const text=d.startsWith('0800')?d.replace(/^(\d{4})(\d{3})(\d{4})$/,'$1 $2 $3'):d.replace(/^(\d{2})(\d{4,5})(\d{4})$/,'($1) $2-$3');
+      document.querySelectorAll('[data-whatsapp-number]').forEach(el=>{el.textContent=text;});
     }catch{/* Keep the server-rendered destination if offline. */}
   }
   refreshWhatsApp();

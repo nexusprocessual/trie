@@ -33,6 +33,16 @@ export async function saveSettings(file, value, db) {
   await rename(temp,file);
   return settings;
 }
+export function formatPhone(phone) {
+  const d=phone.replace(/^55/,'');
+  if(d.startsWith('0800')) return d.replace(/^(\d{4})(\d{3})(\d{4})$/,'$1 $2 $3');
+  return d.replace(/^(\d{2})(\d{4,5})(\d{4})$/,'($1) $2-$3');
+}
 export function configureWhatsApp(html, settings) {
-  return html.replace(/(href=["']https:\/\/wa\.me\/)\d+/g, '$1'+settings.whatsappPhone);
+  const phone=settings.whatsappPhone;
+  return html
+    .replace(/(href=["']https:\/\/wa\.me\/)\d+/g, '$1'+phone)
+    // Footer contact: the original fixed 0800 "tel:" link now shows the admin number and opens WhatsApp.
+    .replace(/title="Clique para ligar"([^>]*?)href="tel:[^"]*">\s*<i class="fas fa-phone"><\/i>\s*[\d ]+/g,
+      `title="Clique para conversar no WhatsApp"$1href="https://wa.me/${phone}" target="_blank" rel="noopener"> <i class="fab fa-whatsapp"></i> <span data-whatsapp-number>${formatPhone(phone)}</span>`);
 }

@@ -30,6 +30,8 @@ test('Admin saves persist across restart and change all WhatsApp destinations',a
     const links=[...html.matchAll(/href="https:\/\/wa.me\/([^"?]+)/g)];
     assert.ok(links.length>0);assert.ok(links.every(m=>m[1]==='5562999991234'));
     assert.ok(html.includes('Olá, quero fazer minha simulação agora!'));
+    assert.ok(!html.includes('tel:+5508000001461') && !html.includes('0800 000 1461'));
+    assert.ok(html.includes('<span data-whatsapp-number>(62) 99999-1234</span>'));
   }
   response=await put('(11) 98888-4321');assert.equal(response.status,200);
   assert.equal((await(await fetch(origin+'/api/settings')).json()).whatsappPhone,'5511988884321');

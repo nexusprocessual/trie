@@ -18,7 +18,7 @@ Se o npm não estiver disponível, execute diretamente `node server.mjs`. Os equ
 
 Abra http://localhost:4173/admin, digite o DDD e o número brasileiro e clique em **Salvar alterações**. O campo aceita telefone com ou sem formatação, prefixo +55 e número 0800. Há uma prévia do destino antes de salvar.
 
-A configuração fica em `data/settings.json`, fora da pasta pública, e permanece após reiniciar o servidor. Todos os links de WhatsApp das páginas usam o número configurado, preservando a mensagem inicial. Páginas já abertas atualizam o destino ao voltar para a aba ou receber a alteração em outra aba. O telefone de ligações do rodapé é independente.
+A configuração fica em `data/settings.json`, fora da pasta pública, e permanece após reiniciar o servidor. Todos os links de WhatsApp das páginas usam o número configurado, preservando a mensagem inicial. Páginas já abertas atualizam o destino ao voltar para a aba ou receber a alteração em outra aba. O telefone do rodapé mostra o mesmo número e abre o WhatsApp.
 
 Este painel é local: não requer senha e só aceita acesso por localhost neste computador. Alterações exigem token de proteção e origem local. Antes de disponibilizar o painel na internet, implemente autenticação administrativa. A edição em `/admin` requer o servidor Node em execução; a exportação estática em `dist/` usa o número salvo no momento do build e não oferece edição persistente.
 
